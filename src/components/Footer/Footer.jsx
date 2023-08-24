@@ -8,7 +8,7 @@ import { faGithub} from '@fortawesome/free-brands-svg-icons';
 export default function Footer(){
 
     return (
-        <div className="container-fluid d-flex justify-content-center footer">
+        <div className=" d-flex justify-content-center footer">
             
                 <span className='p-1'>
                     <a href='https://www.linkedin.com/in/sucheta-mukherjee-07347b88/' target='_blank' rel='noreferrer' >
