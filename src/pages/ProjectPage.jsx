@@ -1,10 +1,15 @@
+import Projects from "../../utils/projects"
+import Card from "../components/UI/Card"
+
+
 export default function ProjectPage(){
+
     return (
         <>
         <h1>Project </h1>
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quos illum mollitia magni officia facilis qui earum accusamus hic commodi ipsam quam perspiciatis dolore! Obcaecati assumenda libero porro optio error?
-        </div>
+        <ul>
+            {Projects.map(el => <li><Card project={el} key=""/></li>)}
+        </ul>
         </>
     )
 }
