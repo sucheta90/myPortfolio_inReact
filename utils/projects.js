@@ -4,6 +4,7 @@ import Streamly from "../src/images/streamly!.png";
 import Plutus from "../src/images/plutus.png";
 const projects = [
   {
+    id: 1,
     title: "Weather Dashboard",
     image: WeatherDashboard,
     description:
@@ -14,6 +15,7 @@ const projects = [
     technologiesUsed: "jQuery, HTML, CSS, Bootstrap, Weather API",
   },
   {
+    id: 2,
     title: "STREAMLY!",
     image: Streamly,
     description:
@@ -24,6 +26,7 @@ const projects = [
     technologiesUsed: "",
   },
   {
+    id: 3,
     title: "Plutus",
     image: Plutus,
     description:
@@ -34,6 +37,7 @@ const projects = [
     technologiesUsed: "MySql, Node Package Manager, Express.js, Bulma",
   },
   {
+    id: 4,
     title: "The Tech Blog",
     image: "",
     description:
@@ -44,6 +48,7 @@ const projects = [
     technologiesUsed: "",
   },
   {
+    id: 5,
     title: "The Social Network API",
     image: "",
     description:
@@ -54,6 +59,7 @@ const projects = [
     technologiesUsed: "",
   },
   {
+    id: 6,
     title: "Readme Generator",
     image: ReadmeGen,
     description:

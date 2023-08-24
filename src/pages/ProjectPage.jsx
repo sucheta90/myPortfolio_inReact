@@ -8,7 +8,7 @@ export default function ProjectPage(){
         <>
         <h1>Project </h1>
         <ul>
-            {Projects.map(el => <li><Card project={el} key=""/></li>)}
+            {Projects.map(el => <li><Card project={el} key={el.id}/></li>)}
         </ul>
         </>
     )
