@@ -1,14 +1,9 @@
-import WeatherDashboard from "/images/WeatherDashboard.png";
-import ReadmeGen from "/images/readmeGenerator.png";
-import Streamly from "/images/streamly!.png";
-import Plutus from "/images/plutus.png";
-import SocialMedia from "/images/socialMedia.png";
-import EmployeeTracker from "/images/employee_tracker.png";
+
 const projects = [
   {
     id: 1,
     title: "Weather Dashboard",
-    image: WeatherDashboard,
+    image: "",
     description:
       "The weather dashboard built with jQuery is a web application that provides users with real-time weather information for a specific location",
     githubRepo: "https://github.com/sucheta90/weather_dashboard",
@@ -19,7 +14,7 @@ const projects = [
   {
     id: 2,
     title: "STREAMLY!",
-    image: Streamly,
+    image: "",
     description:
       "STREAMLY! is a single app designed to make it effortless for users to find information on their favorite shows.",
     githubRepo: "https://github.com/sucheta90/entertainment-finder",
@@ -30,7 +25,7 @@ const projects = [
   {
     id: 3,
     title: "Plutus",
-    image: Plutus,
+    image: "",
     description:
       "Plutus helps the user on knowing where to start with accomplishing their finance goals.",
     githubRepo: "https://github.com/sucheta90/Plutus",
@@ -41,7 +36,7 @@ const projects = [
   {
     id: 4,
     title: "Employee Tracker",
-    image: EmployeeTracker,
+    image: "",
     description:
       "This tool offers businesses a cost-effective and efficient alternative to expensive high-end market tools. It enables them to easily manage departments, company roles, and a comprehensive list of employees along with their salary details.",
     githubRepo: "https://github.com/sucheta90/Employee-tracker",
@@ -52,7 +47,7 @@ const projects = [
   {
     id: 5,
     title: "The Social Network API",
-    image: SocialMedia,
+    image: "",
     description:
       "This application showcases the features and mechanics of a social networking website.",
     githubRepo: "https://github.com/sucheta90/Social-Network-Api",
@@ -63,7 +58,7 @@ const projects = [
   {
     id: 6,
     title: "Readme Generator",
-    image: ReadmeGen,
+    image: "",
     description:
       "Through user prompts, this application gathers project details and generates comprehensive READMEs for any object.",
     githubRepo: "https://github.com/sucheta90/Readme-Generator",
