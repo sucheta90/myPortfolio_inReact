@@ -1,9 +1,9 @@
-import WeatherDashboard from "../src/images/WeatherDashboard.png";
-import ReadmeGen from "../src/images/readmeGenerator.png";
-import Streamly from "../src/images/streamly!.png";
-import Plutus from "../src/images/plutus.png";
-import SocialMedia from "../src/images/socialMedia.png";
-import EmployeeTracker from "../src/images/employee_tracker.png";
+import WeatherDashboard from "/images/WeatherDashboard.png";
+import ReadmeGen from "/images/readmeGenerator.png";
+import Streamly from "/images/streamly!.png";
+import Plutus from "/images/plutus.png";
+import SocialMedia from "/images/socialMedia.png";
+import EmployeeTracker from "/images/employee_tracker.png";
 const projects = [
   {
     id: 1,
