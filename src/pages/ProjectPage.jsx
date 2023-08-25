@@ -12,7 +12,7 @@ import EmployeeTracker from "../images/employee_tracker.png";
 export default function ProjectPage(){
 
     return (
-        <div className="p-5" style={{backgroundColor:"#ffead0ff"}}>
+        <div className="p-2" style={{backgroundColor:"#ffead0ff"}}>
         <h1>Project </h1>
         <ul className="row p-2">
             {Projects.map(el => {

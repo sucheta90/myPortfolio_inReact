@@ -1,7 +1,7 @@
-
+import { v4 as uuidv4 } from "uuid";
 const projects = [
   {
-    id: 1,
+    id: uuidv4(),
     title: "Weather Dashboard",
     image: "",
     description:
@@ -12,7 +12,7 @@ const projects = [
     technologiesUsed: "jQuery, HTML, CSS, Bootstrap, Weather API",
   },
   {
-    id: 2,
+    id: uuidv4(),
     title: "STREAMLY!",
     image: "",
     description:
@@ -23,7 +23,7 @@ const projects = [
     technologiesUsed: "",
   },
   {
-    id: 3,
+    id: uuidv4(),
     title: "Plutus",
     image: "",
     description:
@@ -34,7 +34,7 @@ const projects = [
     technologiesUsed: "MySql, Node Package Manager, Express.js, Bulma",
   },
   {
-    id: 4,
+    id: uuidv4(),
     title: "Employee Tracker",
     image: "",
     description:
@@ -45,7 +45,7 @@ const projects = [
     technologiesUsed: "",
   },
   {
-    id: 5,
+    id: uuidv4(),
     title: "The Social Network API",
     image: "",
     description:
@@ -56,7 +56,7 @@ const projects = [
     technologiesUsed: "",
   },
   {
-    id: 6,
+    id: uuidv4(),
     title: "Readme Generator",
     image: "",
     description:

@@ -1,3 +1,18 @@
 li {
   list-style: none;
 }
+
+#description {
+  width: fit-content;
+  height: 250px;
+  padding: 1.2em;
+  line-height: 1.5;
+  position: absolute;
+  background-color: white;
+  opacity: 0.9;
+}
+.card-container {
+  background-color: #37505cff !important;
+  color: white;
+  font-family: "cursive";
+}
