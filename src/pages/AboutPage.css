@@ -1,7 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+h1 {
+  font-family: "Lobster", cursive;
+  color: #37505cff;
+}
 #profile-img {
   width: 400px;
 }
 
 #about-page {
   background-color: #ffead0ff;
+}
+
+p {
+  line-height: 2;
+  color: #37505cff;
+}
+div {
+  height: 100%;
 }
