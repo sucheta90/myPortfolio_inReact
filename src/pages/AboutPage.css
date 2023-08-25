@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-h1 {
+h1,
+h3 {
   font-family: "Lobster", cursive;
   color: #37505cff;
 }

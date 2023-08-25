@@ -17,7 +17,7 @@ export default function Navbar(){
                                 to='/'
                                 className= {currentPage === '/' ? 'nav-link active' : 'nav-link'}
                             >
-                                Home
+                                <h3>Home</h3>
                                 </Link>
                             </li>
                             <li className='nav-item px-2'>
@@ -25,7 +25,7 @@ export default function Navbar(){
                                 to='/About'
                                 className= {currentPage === '/About' ? 'nav-link active' : 'nav-link'}
                                 >
-                                About Me
+                                <h3>About Me</h3>
                                 </Link>
                             </li>
                             <li className='nav-item px-2'>
@@ -33,7 +33,7 @@ export default function Navbar(){
                                 to='/Project'
                                 className= {currentPage === '/Project' ? 'nav-link active' : 'nav-link'}
                             >
-                                Project
+                               <h3>Portfolio</h3> 
                             </Link>
                             </li>
                             <li className='nav-item px-2'>
@@ -41,7 +41,7 @@ export default function Navbar(){
                                 to='/Contact'
                                 className= {currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
                                 >
-                                Contact
+                                <h3>Contact</h3>
                                 </Link>
                             </li>
                             <li className='nav-item px-2'>
@@ -49,7 +49,7 @@ export default function Navbar(){
                                 to='/Resume'
                                 className= {currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
                                 >
-                                Resume
+                                <h3>Resume</h3>
                                 </Link>
                             </li>
                         </ul>

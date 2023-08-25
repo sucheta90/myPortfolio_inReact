@@ -4,7 +4,7 @@ import './AboutPage.css';
 export default function AboutPage(){
     return (
         <div className="p-5" id="about-page">
-        <div className="row d-flex justify-content-evenly">
+        <div className="row d-flex justify-content-evenly align-items-center">
             <div className="col-6 d-flex align-items-center" id="profile-img">
                 <img src={ProfilePicture} className="img-fluid"/>
             </div>

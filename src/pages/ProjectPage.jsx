@@ -1,6 +1,6 @@
 import Projects from "../../utils/projects"
 import Card from "../components/UI/Card"
-import WeatherDashboard from "../images/WeatherDashboard.png";
+import WeatherDashboard from "../images/weatherDashboard.png";
 import ReadmeGen from "../images/readmeGenerator.png";
 import Streamly from "../images/streamly!.png";
 import Plutus from "../images/plutus.png";
