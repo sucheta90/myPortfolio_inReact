@@ -10,11 +10,20 @@ export default function AboutPage(){
             </div>
             <div className="col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
                 <h1>About Me </h1>
-                <p className="col"> I am a Frontend web developer based in Glen Allen, Virginia. My expertise lies in creating user-friendly web applications and websites, leveraging a skill set that encompasses HTML, CSS, JavaScript, and React. With proficiency in these languages, I strive to build exceptional online experiences.</p>
+                <p className="col"> 
+                    As an aspiring web developer, I have acquired a strong foundation in frontend technologies, including HTML, CSS, JavaScript, and jQuery. I am skilled in creating responsive and visually appealing web interfaces. Moreover, I am proficient in working with popular CSS frameworks such as Bulma and Bootstrap, which enable me to build sleek and intuitive user interfaces efficiently.
+                </p>
 
-                <p className="col" >During my prior employment in the Customer Service industry, I gained valuable experience in problem-solving. Upon relocating to the USA, I transitioned into the role of an office administrative assistant. This position provided me with a comprehensive understanding of crucial aspects such as organizational skills, time management, effective communication, rapid learning, critical thinking, and meticulous attention to detail. These experiences have shaped me into a well-rounded professional with a strong foundation in various essential skills.</p>
+                <p className="col" >
+                    Currently, I am expanding my knowledge and getting familiar with backend technologies, particularly Node.js, Express.js, MySQL, and Sequelize. I understand the importance of a robust backend to complement the frontend and enhance the overall functionality of web applications. By exploring these technologies, I aim to develop full-stack capabilities and create dynamic, data-driven web applications.
+                </p>
 
-                <p className="col">I have a strong passion for continuous learning and skill growth, as I find great satisfaction in swiftly acquiring new knowledge. Given the ever-evolving nature of the technologies I work with, I am dedicated to honing my skills and staying up-to-date. My objective is to demonstrate my expertise, foster collaboration, and contribute to a stimulating and fulfilling work environment as part of a team. If you wish to connect with me, please do not hesitate to reach out.</p> 
+                <p className="col">
+                    I am an enthusiastic learner, consistently seeking to improve my skills and stay up to date with the latest trends and best practices in web development. My passion for problem-solving and creativity drives me to build innovative and user-friendly digital solutions. I am eager to contribute my expertise and collaborate with diverse teams to develop impactful web projects.
+                </p> 
+                <p className="col">
+                As I continue my journey as a web developer, I am excited to take on new challenges, learn from experienced professionals, and leverage my knowledge to build cutting-edge web applications that make a positive impact in the digital world.
+                </p>
             </div>
             
         </div>
