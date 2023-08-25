@@ -43,10 +43,10 @@ export default function ContactPage(){
     }
     return (
         <div className="mx-auto d-flex flex-column justify-content-center align-items-center h-100 form-container">
-        <h2>Contact </h2>
+   
          {showMessage} 
         <div className="card m-5 col-lg-5">
-            <h4>Get In Touch</h4>
+            <h1>Get In Touch</h1>
             <form
                 // action="https://formsubmit.co/mukherjee.sucheta90@email.com"
                 // method="POST"
@@ -62,7 +62,8 @@ export default function ContactPage(){
                 <p>
                     <textarea type="text" onChange={handleChange} name="message" value={message} className="form-control" rows="3" placeholder="Type your message here" required/>
                 </p>
-                <button className="btn" onChange={handleChange} id="form-btn">Send</button>
+                
+                <button className="btn rounded-pill px-5" onChange={handleChange} style={{backgroundColor: "#f76f8eff", color: "white", fontWeight:"bold"}}>Send</button>
                 
             </form>
         </div>
