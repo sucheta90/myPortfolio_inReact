@@ -7,7 +7,7 @@ import './App.css'
 function App() {
   // The Outlet will render page components dynamically
   return (
-    <div className='h-100'>
+    <div className='container-fluid'>
       <header>
         <Navbar/>
       </header>

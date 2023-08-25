@@ -1,0 +1,6 @@
+#hero {
+  background-image: url("../images/protfolio_background.avif");
+  background-size: cover;
+  height: 70vh;
+  filter: blur(1px);
+}
