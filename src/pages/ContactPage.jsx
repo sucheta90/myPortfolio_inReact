@@ -42,10 +42,10 @@ export default function ContactPage(){
         
     }
     return (
-        <div className="mx-auto d-flex flex-column justify-content-center align-items-center h-100 form-container">
+        <div className="mx-auto d-flex flex-column justify-content-center align-items-center h-100 form-container" id="contact-page">
    
          {showMessage} 
-        <div className="card m-5 col-lg-5">
+        <div className="card m-5 col-lg-5" >
             <h1>Get In Touch</h1>
             <form
                 // action="https://formsubmit.co/mukherjee.sucheta90@email.com"

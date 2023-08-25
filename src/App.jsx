@@ -11,7 +11,7 @@ function App() {
       <header>
         <Navbar/>
       </header>
-      <main>
+      <main id='view'>
         <Outlet/>
       </main>
       <footer>

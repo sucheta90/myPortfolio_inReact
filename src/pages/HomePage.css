@@ -1,6 +1,45 @@
+#hero-container {
+  position: relative;
+}
 #hero {
   background-image: url("../images/protfolio_background.avif");
   background-size: cover;
-  height: 70vh;
-  filter: blur(1px);
+  height: 100vh;
+}
+#welcome {
+  color: white;
+  animation: moveIn 2s;
+  position: absolute;
+  left: 28%;
+  right: auto;
+  top: 30%;
+}
+#welcome p {
+  color: white;
+  font-size: 0.8em;
+}
+
+@keyframes moveIn {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #welcome {
+    left: 15%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #welcome {
+    left: 5%;
+  }
+}
+@media screen and (min-width: 1700px) {
+  #welcome {
+    right: 20%;
+  }
 }

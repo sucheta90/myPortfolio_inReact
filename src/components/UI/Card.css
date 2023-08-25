@@ -4,7 +4,7 @@ li {
 
 #description {
   width: fit-content;
-  height: 250px;
+  height: 60%;
   padding: 1.2em;
   line-height: 1.5;
   position: absolute;
@@ -15,4 +15,8 @@ li {
   background-color: #37505cff !important;
   color: white;
   font-family: "cursive";
+}
+
+#image-tile {
+  cursor: pointer;
 }

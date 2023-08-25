@@ -3,14 +3,19 @@
 import "./HomePage.css";
 export default function HomePage(){
     return (
-      <div>
-        <div id="hero">
-          
-      </div>
-       <h1 className="py-5">
-          Welcome to my Profile
-        </h1>
+        <div id='hero-container'>
+            <div id="hero">
+              
+            </div>
+              
+          <h1 id="welcome">Hi, my name is Sucheta Mukherjee
+             
+             <p>I am a Full Stack Web Developer</p>
+             <p>Welcome to my page!!</p>
+           
+           </h1>
+        </div>
 
-      </div>
       )
 }
+
