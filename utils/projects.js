@@ -2,6 +2,8 @@ import WeatherDashboard from "../src/images/WeatherDashboard.png";
 import ReadmeGen from "../src/images/readmeGenerator.png";
 import Streamly from "../src/images/streamly!.png";
 import Plutus from "../src/images/plutus.png";
+import SocialMedia from "../src/images/socialMedia.png";
+import EmployeeTracker from "../src/images/employee_tracker.png";
 const projects = [
   {
     id: 1,
@@ -38,24 +40,24 @@ const projects = [
   },
   {
     id: 4,
-    title: "The Tech Blog",
-    image: "",
+    title: "Employee Tracker",
+    image: EmployeeTracker,
     description:
-      "The weather dashboard built with jQuery is a web application that provides users with real-time weather information for a specific location",
-    githubRepo: "https://github.com/sucheta90/Tech_Blog",
-    liveSite: "https://mysterious-chamber-53032-ae84c08c721b.herokuapp.com/",
-    videoWalkthrough: "",
+      "This tool offers businesses a cost-effective and efficient alternative to expensive high-end market tools. It enables them to easily manage departments, company roles, and a comprehensive list of employees along with their salary details.",
+    githubRepo: "https://github.com/sucheta90/Employee-tracker",
+    liveSite: "",
+    videoWalkthrough: "https://www.youtube.com/watch?v=T3dyh5bHTu0",
     technologiesUsed: "",
   },
   {
     id: 5,
     title: "The Social Network API",
-    image: "",
+    image: SocialMedia,
     description:
       "This application showcases the features and mechanics of a social networking website.",
     githubRepo: "https://github.com/sucheta90/Social-Network-Api",
     liveSite: "",
-    videoWalkthrough: "",
+    videoWalkthrough: "https://www.youtube.com/watch?v=EvW9vx47Y_c",
     technologiesUsed: "",
   },
   {
