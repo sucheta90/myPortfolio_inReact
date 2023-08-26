@@ -8,3 +8,9 @@
 #contact-page {
   height: 90vh;
 }
+section {
+  line-height: 2;
+}
+#resume-btn {
+  background-color: #f76f8eff;
+}

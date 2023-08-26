@@ -48,6 +48,7 @@ export default function ContactPage(){
         <div className="card m-5 col-lg-5" >
             <h1>Get In Touch</h1>
             <form
+                className='my-5'
                 // action="https://formsubmit.co/mukherjee.sucheta90@email.com"
                 // method="POST"
                 onSubmit={handleSubmit}

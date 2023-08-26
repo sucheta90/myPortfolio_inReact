@@ -5,6 +5,7 @@
   background-image: url("../images/protfolio_background.avif");
   background-size: cover;
   height: 100vh;
+  filter: blur(2px);
 }
 #welcome {
   color: white;

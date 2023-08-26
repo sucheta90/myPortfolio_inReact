@@ -1,0 +1,10 @@
+#resume-container {
+  background-color: #ffead0ff;
+}
+li {
+  font-size: 1.2em;
+}
+#resume-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

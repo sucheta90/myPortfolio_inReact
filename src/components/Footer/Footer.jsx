@@ -12,13 +12,13 @@ export default function Footer(){
             
                 <span className='p-1'>
                     <a href='https://www.linkedin.com/in/sucheta-mukherjee-07347b88/' target='_blank' rel='noreferrer' >
-                    <FontAwesomeIcon icon={faLinkedin} style={{color: "white",}} />
+                    <FontAwesomeIcon icon={faLinkedin} style={{color: "white",}} className='link' />
                     </a>
 
                 </span>
                 <span className='p-1'>
-                    <a href='https://github.com/sucheta90' target='_blank' rel='noreferrer'>
-                    <FontAwesomeIcon icon={faGithub} style={{color: "white",}} />
+                    <a href='https://github.com/sucheta90' target='_blank' rel='noreferrer' className='link'>
+                    <FontAwesomeIcon icon={faGithub} style={{color: "white",}} className='link'/>
                     </a>
                 </span>
           

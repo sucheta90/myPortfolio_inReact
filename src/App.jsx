@@ -7,14 +7,14 @@ import './App.css'
 function App() {
   // The Outlet will render page components dynamically
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid d-flex flex-column'>
       <header>
         <Navbar/>
       </header>
       <main id='view'>
         <Outlet/>
       </main>
-      <footer>
+      <footer className='justify-self-end'>
          <Footer/>
       </footer>
       

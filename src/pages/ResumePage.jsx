@@ -1,17 +1,15 @@
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBootstrap, faHtml5,faCss3Alt,faSquareJs,faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons';
+import './ResumePage.css';
 
 export default function ResumePage(){
     return (
-        <>
+        <div className='py-5' id='resume-container'>
         <h1>Resume </h1>
-        <div className="row">
-            <div className="col">
-                <a>Download Reasume</a>
-            </div>
-            <div className="col">
-                <section>
+        <div className="row my-5 ">
+            <div className="w-100">
+                <section className='my-2'>
                     <h3>
                         Front-end Proficiencies
                     </h3>
@@ -38,10 +36,11 @@ export default function ResumePage(){
                     <li>MongoDB</li>
                 </ul>
                 </section>
-                
+                <a href="src/resume/sucheta_Web_Dev_Resume.pdf" download={true}><button className='btn rounded-pill px-5' id='resume-btn'><h3 className='text-light'>Download Resume</h3></button></a>
             </div>
+           
 
         </div>
-        </>
+        </div>
     )
 }

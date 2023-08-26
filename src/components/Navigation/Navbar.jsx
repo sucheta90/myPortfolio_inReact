@@ -15,41 +15,41 @@ export default function Navbar(){
                             <li className='nav-item px-2'>
                                 <Link
                                 to='/'
-                                className= {currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                                className= {currentPage === '/' ? 'nav-link px-5 active' : ' px-5 nav-link'}
                             >
-                                <h3>Home</h3>
+                                <h3 className='nav-tab'>Home</h3>
                                 </Link>
                             </li>
                             <li className='nav-item px-2'>
                                 <Link
                                 to='/About'
-                                className= {currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+                                className= {currentPage === '/About' ? 'nav-link px-5 active' : ' px-5 nav-link'}
                                 >
-                                <h3>About Me</h3>
+                                <h3 className='nav-tab'>About Me</h3>
                                 </Link>
                             </li>
                             <li className='nav-item px-2'>
                                 <Link
                                 to='/Project'
-                                className= {currentPage === '/Project' ? 'nav-link active' : 'nav-link'}
+                                className= {currentPage === '/Project' ? 'nav-link px-5 active' : 'px-5 nav-link'}
                             >
-                               <h3>Portfolio</h3> 
+                               <h3 className='nav-tab'>Portfolio</h3> 
                             </Link>
                             </li>
                             <li className='nav-item px-2'>
                                 <Link
                                 to='/Contact'
-                                className= {currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+                                className= {currentPage === '/Contact' ? 'nav-link px-5 active' : ' px-5 nav-link'}
                                 >
-                                <h3>Contact</h3>
+                                <h3 className='nav-tab'>Contact</h3>
                                 </Link>
                             </li>
                             <li className='nav-item px-2'>
                                 <Link
                                 to='/Resume'
-                                className= {currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+                                className= {currentPage === '/Resume' ? 'nav-link px-5 active' : ' px-5 nav-link'}
                                 >
-                                <h3>Resume</h3>
+                                <h3 className='nav-tabb'>Resume</h3>
                                 </Link>
                             </li>
                         </ul>

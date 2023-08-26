@@ -8,3 +8,7 @@
 span {
   margin: 0 1em 0 1em;
 }
+
+.link:hover {
+  transform: scale(1.2);
+}
