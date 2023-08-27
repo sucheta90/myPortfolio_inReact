@@ -1,7 +1,9 @@
 import './ContactPage.css';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import { validateEmail } from '../../utils/validation';
 import emailjs from '@emailjs/browser';
+import keys from '../../utils/keys';
+
 
 export default function ContactPage(){
     const contactForm = document.getElementById('contact-form')
@@ -11,7 +13,7 @@ export default function ContactPage(){
     // const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
-    const templateId = 'template_yypi6th'
+   
        
     const handleChange = (e)=>{
        const {target} = e;
@@ -37,7 +39,7 @@ export default function ContactPage(){
             setShowMessage( <div className="alert alert-danger my-2" role="alert">Please provide a valid email.</div>)
         }else if(validEmail && userName && message){
 
-            emailjs.sendForm('service_oerxgbc', templateId , contactForm, 'D5XDIdUIOK4nLYl-Y')
+            emailjs.sendForm(keys.service, keys.template , contactForm, keys.some_key)
            .then((result) => {
           console.log(result.text);
           setShowMessage(<div className="alert alert-success  my-2" role="alert">Thank You!!! You message has been sent</div>)
