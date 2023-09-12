@@ -18,6 +18,7 @@ export default function Card({project}){
   
     return (
      
+    // eslint-disable-next-line react/prop-types
     <div className="card d-flex align-items-center shadow mb-5 bg-body-tertiary rounded card-container" id={project.id}>
        {/* eslint-disable-next-line react/prop-types */}
        <img src={project.image} className="shadow mb-5 bg-body-tertiary rounded" style={{width: "200px",height:"180px"}}  id='image-tile' onClick={handleClick}/>

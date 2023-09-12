@@ -11,12 +11,10 @@ h3 {
 
 #about-page {
   background-color: #ffead0ff;
+  height: 90vh;
 }
 
 p {
   line-height: 2;
   color: #37505cff;
-}
-div {
-  height: 100%;
 }
