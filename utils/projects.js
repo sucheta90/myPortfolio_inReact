@@ -35,6 +35,18 @@ const projects = [
   },
   {
     id: uuidv4(),
+    title: "BookItBash",
+    image: "",
+    description:
+      "This application was designed with a focus on catering to music enthusiasts. Users can discover music events that match their specific search preferences.",
+    githubRepo: "https://github.com/sucheta90/BookItBash",
+    liveSite: "https://still-everglades-63170-224d574b2b5f.herokuapp.com/",
+    videoWalkthrough: "",
+    technologiesUsed:
+      "MongoDB, Mongoose, React, JSON Web Token, Express.js, Next.js, Tailwind",
+  },
+  {
+    id: uuidv4(),
     title: "Employee Tracker",
     image: "",
     description:
@@ -46,7 +58,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    title: "The Social Network API",
+    title: "Social Network API",
     image: "",
     description:
       "This application showcases the features and mechanics of a social networking website.",
