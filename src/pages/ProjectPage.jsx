@@ -6,6 +6,7 @@ import Streamly from "../images/streamly!.png";
 import Plutus from "../images/plutus.png";
 import SocialMedia from "../images/socialMedia.png";
 import EmployeeTracker from "../images/employee_tracker.png";
+import BookItBash from "../images/bookItBash.png";
 
 export default function ProjectPage() {
   return (
@@ -23,6 +24,8 @@ export default function ProjectPage() {
             el.image = EmployeeTracker;
           } else if (el.title === "The Social Network API") {
             el.image = SocialMedia;
+          } else if (el.title === "BookItBash") {
+            el.image = BookItBash;
           } else {
             el.image = ReadmeGen;
           }
