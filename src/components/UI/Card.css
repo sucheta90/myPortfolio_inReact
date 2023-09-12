@@ -3,20 +3,28 @@ li {
 }
 
 #description {
-  width: fit-content;
-  height: 60%;
-  padding: 1.2em;
+  /* width: fit-content; */
+  height: 100%;
+  padding: 1em;
   line-height: 1.5;
   position: absolute;
+  top: 0;
   background-color: white;
-  opacity: 0.9;
+  opacity: 0.95;
+  overflow: scroll;
 }
 .card-container {
-  background-color: #37505cff !important;
+  /* background-color: #37505cff !important; */
+  background-color: #c3c3c3 !important;
   color: white;
   font-family: "cursive";
 }
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 
-#image-tile {
-  cursor: pointer;
+.no-click {
+  pointer-events: none;
 }

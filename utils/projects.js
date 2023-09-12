@@ -46,7 +46,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    title: "The Social Network API",
+    title: "Social Network API",
     image: "",
     description:
       "This application showcases the features and mechanics of a social networking website.",
