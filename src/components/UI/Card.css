@@ -1,6 +1,10 @@
 li {
   list-style: none;
 }
+img {
+  width: 15em;
+  height: 12em;
+}
 
 #description {
   /* width: fit-content; */
@@ -12,6 +16,7 @@ li {
   background-color: white;
   opacity: 0.95;
   overflow: scroll;
+  
 }
 .card-container {
   /* background-color: #37505cff !important; */

@@ -29,15 +29,10 @@ export default function Card({ project }) {
 
   return (
     <div
-      className="card d-flex align-items-center shadow mb-5 bg-body-tertiary rounded card-container"
+      className="card d-flex align-items-center shadow mb-5 bg-body-tertiary rounded card-container justify-content-evenly"
       id={project.id}
     >
-      <img
-        src={project.image}
-        className="shadow mb-5 bg-body-tertiary rounded"
-        style={{ width: "100%", height: "200px" }}
-      />
-
+      {/* description modal */}
       {showMessage && (
         <div id="description">
           <p className=" card">{project.description} </p>
@@ -50,9 +45,19 @@ export default function Card({ project }) {
           </button>
         </div>
       )}
+      {/* description body */}
+
+      <section className="image-container shadow bg-body-tertiary rounded ">
+        <img src={project.image} />
+      </section>
 
       <div className="card-body">
-        <h4 className="card-title ">{project.title}</h4>
+        <h4
+          className="card-title p-2 rounded"
+          style={{ fontWeight: "600", backgroundColor: "#37505cff" }}
+        >
+          {project.title}
+        </h4>
       </div>
       <div className="card-body" id="buttons">
         <button
