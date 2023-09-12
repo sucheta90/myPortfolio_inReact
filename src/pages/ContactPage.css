@@ -4,9 +4,13 @@
 }
 .form-container {
   background-color: #ffead0ff;
+  /* margin-bottom: 4em; */
+}
+#contact-form {
+  margin-bottom: 6em;
 }
 #contact-page {
-  height: 90vh;
+  height: 100vh;
 }
 section {
   line-height: 2;
