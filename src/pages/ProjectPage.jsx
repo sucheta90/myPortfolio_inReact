@@ -1,12 +1,12 @@
 import Projects from "../../utils/projects";
 import Card from "../components/UI/Card";
-import WeatherDashboard from "../images/weatherDashboard.png";
-import ReadmeGen from "../images/readmeGenerator.png";
-import Streamly from "../images/streamly!.png";
-import Plutus from "../images/plutus.png";
-import SocialMedia from "../images/socialMedia.png";
-import EmployeeTracker from "../images/employee_tracker.png";
-import BookItBash from "../images/bookItBash.png";
+import WeatherDashboard from "../images/weatherDashboard.webp";
+import ReadmeGen from "../images/readmeGenerator.webp";
+import Streamly from "../images/streamly!.webp";
+import Plutus from "../images/plutus.webp";
+import SocialMedia from "../images/socialMedia.webp";
+import EmployeeTracker from "../images/employee_tracker.webp";
+import BookItBash from "../images/bookItBash.webp";
 
 export default function ProjectPage() {
   return (
