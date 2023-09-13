@@ -16,7 +16,6 @@ img {
   background-color: white;
   opacity: 0.95;
   overflow: scroll;
-  
 }
 .card-container {
   /* background-color: #37505cff !important; */
@@ -32,4 +31,8 @@ img {
 
 .no-click {
   pointer-events: none;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
