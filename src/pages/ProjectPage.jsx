@@ -22,7 +22,7 @@ export default function ProjectPage() {
             el.image = Plutus;
           } else if (el.title === "Employee Tracker") {
             el.image = EmployeeTracker;
-          } else if (el.title === "The Social Network API") {
+          } else if (el.title === "Social Network API") {
             el.image = SocialMedia;
           } else if (el.title === "BookItBash") {
             el.image = BookItBash;
