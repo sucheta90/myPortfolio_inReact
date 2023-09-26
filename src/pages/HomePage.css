@@ -11,9 +11,12 @@
   color: white;
   animation: moveIn 3s;
   position: absolute;
-  left: 25%;
-  right: auto;
-  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 35%;
 }
 #welcome p {
   color: white;
@@ -22,14 +25,14 @@
 
 @keyframes moveIn {
   from {
-    left: 0%;
+    opacity: 0%;
   }
   to {
-    left: 25%;
+    opacity: 100%;
   }
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
   #welcome {
     left: 15%;
   }
@@ -41,8 +44,8 @@
       left: 15%;
     }
   }
-}
-@media screen and (max-width: 600px) {
+} */
+/* @media screen and (max-width: 600px) {
   #welcome {
     left: 2%;
   }
@@ -58,8 +61,8 @@
     font-size: 0.6em;
     line-height: 1;
   }
-}
-@media screen and (min-width: 1700px) {
+} */
+/* @media screen and (min-width: 1700px) {
   #welcome {
     right: auto;
   }
@@ -71,4 +74,4 @@
       left: 25%;
     }
   }
-}
+} */
