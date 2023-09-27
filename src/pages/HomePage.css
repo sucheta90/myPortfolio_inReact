@@ -9,11 +9,14 @@
 }
 #welcome {
   color: white;
-  animation: moveIn 3s;
+  animation: moveIn 4s;
   position: absolute;
-  left: 25%;
-  right: auto;
-  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 35%;
 }
 #welcome p {
   color: white;
@@ -22,29 +25,18 @@
 
 @keyframes moveIn {
   from {
-    left: 0%;
+    left: -100%;
   }
   to {
-    left: 25%;
+    left: 0%;
   }
 }
 
-@media screen and (max-width: 1000px) {
-  #welcome {
-    left: 15%;
-  }
-  @keyframes moveIn {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 15%;
-    }
-  }
-}
 @media screen and (max-width: 600px) {
   #welcome {
-    left: 2%;
+    left: 0%;
+    transform: scale(0.8);
+    top: 25%;
   }
   @keyframes moveIn {
     from {
@@ -57,18 +49,5 @@
   #welcome p {
     font-size: 0.6em;
     line-height: 1;
-  }
-}
-@media screen and (min-width: 1700px) {
-  #welcome {
-    right: auto;
-  }
-  @keyframes moveIn {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 25%;
-    }
   }
 }
