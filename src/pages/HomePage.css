@@ -9,6 +9,7 @@
 }
 #welcome {
   color: white;
+  letter-spacing: 3px;
   animation: moveIn 4s;
   position: absolute;
   margin-left: auto;

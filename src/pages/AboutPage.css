@@ -5,16 +5,24 @@ h3 {
   font-family: "Lobster", cursive;
   color: #37505cff;
 }
-#profile-img {
-  width: 400px;
+#profile-picture {
+  width: 100%;
+  max-width: 500px;
+}
+#about-content {
+  height: 100%;
 }
 
 #about-page {
   background-color: #ffead0ff;
+  scroll-behavior: auto;
 }
 
 p {
   line-height: 2;
   color: #37505cff;
   font-family: sans-serif;
+}
+
+@media screen and (min-width: 600px) {
 }

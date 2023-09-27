@@ -3,17 +3,23 @@ import "./AboutPage.css";
 
 export default function AboutPage() {
   return (
-    <div className="" id="about-page">
-      <div className="row d-flex justify-content-center align-items-center py-5 h-100">
-        <div
-          className="col-6  d-flex align-items-center justify-content-center"
-          id="profile-img"
-        >
-          <img src={ProfilePicture} className="img-fluid" />
+    <div className="d-flex justify-content-center h-100 py-5" id="about-page">
+      <div
+        className=" row d-flex justify-content-evenly align-items-center"
+        id="about-content"
+      >
+        {/* image */}
+        <div className="col-lg-4 col-sm-8" id="profile-img">
+          <img
+            src={ProfilePicture}
+            className="img-fluid p-2"
+            id="profile-picture"
+          />
         </div>
-        <div className="col-6 col-sm-6 d-flex flex-column align-items-center justify-content-center">
-          <h1 className="py-2">About Me </h1>
-          <p className="p-2">
+        {/* content */}
+        <div className="col-lg-7 col-sm-8 h-100 d-flex flex-column align-items-center justify-content-center ">
+          <h1 className="">About Me </h1>
+          <p className="px-1">
             Hello! I&#39;m Sucheta Mukherjee, a passionate web developer with a
             diverse background. My journey began as a self-taught front-end
             developer, and I&#39;ve since graduated from the Full Stack Bootcamp
@@ -31,8 +37,7 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
-      <p className="py-5 m-0"></p>
-      <p className="py-5 m-0"></p>
+      <p className="my-5"></p>
     </div>
   );
 }

@@ -4,6 +4,7 @@
 }
 .form-container {
   background-color: #ffead0ff;
+  height: 100vh;
   /* margin-bottom: 4em; */
 }
 #contact-form {
