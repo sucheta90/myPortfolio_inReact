@@ -11,53 +11,62 @@ import "./ResumePage.css";
 import Resume from "../resume/Sucheta Mukherjee_resume_WebDev.pdf";
 export default function ResumePage() {
   return (
-    <div className="py-5" id="resume-container">
-      <h1>Resume </h1>
-      <div className="row my-5 ">
-        <div className="w-100">
-          <section className="my-2">
+    <div className="overflow-scroll" id="resume-container">
+      <div id="resume-content" className="container">
+        <h1 className="mt-4">Resume </h1>
+        <div className="row">
+          {/* <div className="w-100"> */}
+          <section className="">
             <h3>Front-end Proficiencies</h3>
-            <ul>
-              <li>
+            <ul className="p-0 row d-flex justify-content-evenly">
+              <li className="tile col-sm-8 m-2">
                 {" "}
                 <FontAwesomeIcon icon={faHtml5} /> HTML
               </li>
-              <li>
+              <li className="tile col-sm-8 m-2">
                 {" "}
-                <FontAwesomeIcon icon={faCss3Alt} /> CSS
+                <FontAwesomeIcon icon={faCss3Alt} />
+                CSS
               </li>
-              <li>
+              <li className="tile col-sm-8 m-2">
                 {" "}
-                <FontAwesomeIcon icon={faSquareJs} /> JavaScript
+                <FontAwesomeIcon icon={faSquareJs} />
+                JavaScript
               </li>
-              <li>jQuery</li>
-              <li>Responsive Web Design</li>
-              <li>
+              <li className="tile col-sm-8 m-2">jQuery</li>
+              <li className="tile col-sm-8 m-2">Responsive Web Design</li>
+              <li className="tile col-sm-8 m-2">
                 <FontAwesomeIcon icon={faReact} /> React
               </li>
-              <li>
+              <li className="tile col-sm-8 m-2">
                 <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
               </li>
-              <li>Bulma</li>
+              <li className="tile col-sm-8 m-2">Bulma</li>
             </ul>
           </section>
-          <section>
+          <section className="">
             <h3>Back-end Proficiencies</h3>
-            <ul>
-              <li>Rest APIs</li>
-              <li>
+            <ul className="p-0 row d-flex justify-content-center">
+              <li className="tile col-sm-8 m-2">Rest APIs</li>
+              <li className="tile col-sm-8 m-2">
                 <FontAwesomeIcon icon={faNodeJs} /> Node
               </li>
-              <li>Express</li>
-              <li>MySQL, Sequelize</li>
-              <li>MongoDB</li>
+              <li className="tile col-sm-8 m-2">Express</li>
+              <li className="tile col-sm-8 m-2">MySQL, Sequelize</li>
+              <li className="tile col-sm-8 m-2">MongoDB</li>
+              <li className="tile col-sm-8 m-2">Graph QL</li>
             </ul>
           </section>
-          <a href={Resume} download={true}>
-            <button className="btn rounded-pill px-5" id="resume-btn">
+          <a
+            href={Resume}
+            download={true}
+            className="row d-flex justify-content-center mt-4"
+          >
+            <button className="btn rounded-pill col-6 mb-4" id="resume-btn">
               <h3 className="text-light">Download Resume</h3>
             </button>
           </a>
+          {/* </div> */}
         </div>
       </div>
     </div>
