@@ -34,7 +34,7 @@ export default function ContactPage() {
     const validEmail = validateEmail(email);
     if (!validEmail) {
       setShowMessage(
-        <div className="alert alert-danger my-2" role="alert">
+        <div className="alert alert-danger my-4" role="alert">
           Please provide a valid email.
         </div>
       );
@@ -60,62 +60,60 @@ export default function ContactPage() {
     }
   }
   return (
-    <div
-      className="mx-auto py-5  d-flex flex-column justify-content-center align-items-center h-100 form-container"
-      id="contact-page"
-    >
-      <div className="card m-5 col-lg-5">
-        <h1>Get In Touch</h1>
-        <form className="my-5" id="contact-form" onSubmit={handleSubmit}>
-          {/* <p>
-                <span><input type="text" onChange={handleChange} className="form-control" name="firstName" placeholder="First Name" required value={firstName}/></span>
-                <span><input type="text" onChange={handleChange} className="form-control" name="lastName" placeholder="Last Name" required value={lastName}/></span>
-                </p> */}
-          <p>
-            <input
-              type="text"
-              onChange={handleChange}
-              className="form-control"
-              name="user_name"
-              value={userName}
-              placeholder="Name"
-            />
-          </p>
-          <p>
-            <input
-              type="email"
-              onChange={handleChange}
-              placeholder="Email"
-              className="form-control"
-              name="user_email"
-              required
-              value={email}
-            />
-          </p>
-          <p>
-            <textarea
-              type="text"
-              onChange={handleChange}
-              name="message"
-              value={message}
-              className="form-control"
-              rows="3"
-              placeholder="Type your message here"
-              required
-            />
-          </p>
+    <div className="form-container overflow-scroll" id="contact-page">
+      <div
+        id="contact-content"
+        className="d-flex flex-column justify-content-center align-items-center"
+      >
+        <div className="card col-lg-5">
+          <h1>Get In Touch</h1>
+          <form className="my-5" id="contact-form" onSubmit={handleSubmit}>
+            {showMessage}
+            <p>
+              <input
+                type="text"
+                onChange={handleChange}
+                className="form-control"
+                name="user_name"
+                value={userName}
+                placeholder="Name"
+              />
+            </p>
+            <p>
+              <input
+                type="email"
+                onChange={handleChange}
+                placeholder="Email"
+                className="form-control"
+                name="user_email"
+                required
+                value={email}
+              />
+            </p>
+            <p>
+              <textarea
+                type="text"
+                onChange={handleChange}
+                name="message"
+                value={message}
+                className="form-control"
+                rows="3"
+                placeholder="Type your message here"
+                required
+              />
+            </p>
 
-          <button
-            className="btn rounded-pill px-5 my-2"
-            style={{
-              backgroundColor: "#f76f8eff",
-            }}
-          >
-            <h3 className="text-light my-1">Send</h3>
-          </button>
-        </form>
+            <button
+              className="btn rounded-pill px-5 my-2"
+              style={{
+                backgroundColor: "#f76f8eff",
+              }}
+            >
+              <h3 className="text-light my-1">Send</h3>
+            </button>
+          </form>
+        </div>
       </div>
-      {showMessage}
     </div>
   );
 }
