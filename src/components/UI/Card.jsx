@@ -12,14 +12,6 @@ export default function Card({ project }) {
   const [showMessage, setShowMessage] = useState(false);
 
   function handleClick(e) {
-    console.log(e.target.id);
-
-    // if (e.target.id === "open-modal") {
-    //   setShowMessage(!showMessage);
-    //   return;
-    // }
-    // e.target.id === "close" ? setShowMessage(!showMessage) : "";
-
     e.target.id === "open-modal"
       ? setShowMessage(!showMessage)
       : e.target.id === "close"
@@ -68,6 +60,7 @@ export default function Card({ project }) {
             backgroundColor: "#f76f8eff",
             color: "white",
             fontWeight: "bold",
+            opacity: showMessage ? "0" : "100",
           }}
         >
           <FontAwesomeIcon
