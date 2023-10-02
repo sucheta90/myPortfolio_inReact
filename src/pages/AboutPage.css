@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 h1,
 h3 {
   font-family: "Lobster", cursive;
@@ -15,6 +19,15 @@ h3 {
 
 p {
   line-height: 2;
+  letter-spacing: 1px;
   color: #37505cff;
+  font-size: 1.2;
   font-family: sans-serif;
+  white-space: 0;
+}
+#about-container {
+  height: 90vh;
+}
+#about-content {
+  overflow: scroll !important;
 }
