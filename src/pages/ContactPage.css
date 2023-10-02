@@ -9,12 +9,12 @@
 #contact-form {
   margin-bottom: 6em;
 }
-#contact-page {
-  height: 100vh;
-}
 section {
   line-height: 2;
 }
 #resume-btn {
   background-color: #f76f8eff;
+}
+#contact-content {
+  height: 90vh;
 }
