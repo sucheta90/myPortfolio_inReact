@@ -8,3 +8,21 @@ li {
   transform: scale(1.1);
   cursor: pointer;
 }
+#resume-content {
+  height: 90vh;
+}
+.tile {
+  background-color: white;
+  border-radius: 40px;
+  width: 8em;
+  line-height: 20px;
+  height: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.6em 2;
+  box-shadow: 1px 2px 5px rgb(61, 57, 57);
+}
