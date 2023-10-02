@@ -28,6 +28,7 @@ p {
 #about-container {
   height: 90vh;
 }
-#about-content {
-  overflow: scroll !important;
+
+.about_page-btn:hover {
+  background-color: #37505cff !important;
 }
