@@ -8,7 +8,7 @@ import {
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 import "./ResumePage.css";
-import Resume from "../resume/Sucheta Mukherjee_resume_WebDev.pdf";
+import Resume from "../resume/Sucheta Mukherjee_newResume.pdf";
 export default function ResumePage() {
   return (
     <div className="overflow-scroll" id="resume-container">
@@ -62,7 +62,7 @@ export default function ResumePage() {
             download={true}
             className="row d-flex justify-content-center mt-4"
           >
-            <button className="btn rounded-pill col-6 mb-4" id="resume-btn">
+            <button className="btn rounded-pill col-6 mb-4" id="resume-btn" style={{boxShadow: "1px 2px 5px rgb(61, 57, 57)"}}>
               <h3 className="text-light">Download Resume</h3>
             </button>
           </a>
