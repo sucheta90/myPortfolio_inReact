@@ -11,7 +11,8 @@ import BookItBash from "../images/bookItBash.webp";
 export default function ProjectPage() {
   return (
     <div className="p-2" style={{ backgroundColor: "#ffead0ff" }}>
-      <h1>Portfolio </h1>
+      <h1>Projects </h1>
+
       <ul className="row p-2 d-flex justify-content-center">
         {Projects.map((el) => {
           if (el.title === "Weather Dashboard") {
