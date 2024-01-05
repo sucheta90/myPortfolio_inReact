@@ -57,6 +57,18 @@ export default function Navbar() {
             </li>
             <li className="nav-item px-2">
               <Link
+                to="/Project"
+                className={
+                  currentPage === "/OpenSource"
+                    ? "nav-link px-5 active"
+                    : "px-5 nav-link"
+                }
+              >
+                <h3 className="nav-tab">Open Source Contributions</h3>
+              </Link>
+            </li>
+            <li className="nav-item px-2">
+              <Link
                 to="/Contact"
                 className={
                   currentPage === "/Contact"
