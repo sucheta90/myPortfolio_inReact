@@ -1,6 +1,9 @@
 import "./ContactPage.css";
 import { useState } from "react";
 import { validateEmail } from "../../utils/validation";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import emailjs from "@emailjs/browser";
 import keys from "../../utils/keys";
 
@@ -112,6 +115,49 @@ export default function ContactPage() {
               <h3 className="text-light my-1">Send</h3>
             </button>
           </form>
+          <div>
+            <span className="p-1">
+              <a
+                href="https://www.linkedin.com/in/sucheta-mukherjee-07347b88/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  style={{ color: "#37505cff", fontSize: "2em" }}
+                  className="link"
+                />
+              </a>
+            </span>
+            <span className="p-1">
+              <a
+                href="https://github.com/sucheta90"
+                target="_blank"
+                rel="noreferrer"
+                className="link"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  style={{ color: "#37505cff", fontSize: "2em" }}
+                  className="link"
+                />
+              </a>
+            </span>
+            <span className="p-1">
+              <a
+                href="mailto:sucheta.mu@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="link"
+              >
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  style={{ color: "#37505cff", fontSize: "2em" }}
+                  className="link"
+                />
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
