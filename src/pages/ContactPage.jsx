@@ -3,7 +3,8 @@ import { useState } from "react";
 import { validateEmail } from "../../utils/validation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
+import Resume from "../resume/Sucheta_Mukherjee_newResume.pdf";
 import emailjs from "@emailjs/browser";
 import keys from "../../utils/keys";
 
@@ -116,6 +117,7 @@ export default function ContactPage() {
             </button>
           </form>
           <div>
+            {/* Social links */}
             <span className="p-1">
               <a
                 href="https://www.linkedin.com/in/sucheta-mukherjee-07347b88/"
@@ -152,6 +154,20 @@ export default function ContactPage() {
               >
                 <FontAwesomeIcon
                   icon={faEnvelope}
+                  style={{ color: "#37505cff", fontSize: "2em" }}
+                  className="link"
+                />
+              </a>
+            </span>
+            <span className="p-1">
+              <a
+                href={Resume}
+                className="link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faFile}
                   style={{ color: "#37505cff", fontSize: "2em" }}
                   className="link"
                 />
