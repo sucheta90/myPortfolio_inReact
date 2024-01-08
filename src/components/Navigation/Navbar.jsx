@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+// import Resume from "../../resume/Sucheta Mukherjee_newResume.pdf";
 import "./Navbar.css";
 export default function Navbar() {
   const currentPage = useLocation().pathname;
@@ -79,18 +80,19 @@ export default function Navbar() {
                 <h3 className="nav-tab">Contact</h3>
               </Link>
             </li>
-            <li className="nav-item px-2">
+            {/* <li className="nav-item px-2">
               <Link
-                to="/Resume"
                 className={
-                  currentPage === "/Resume"
+                  currentPage === "/Contact"
                     ? "nav-link px-5 active"
                     : " px-5 nav-link"
                 }
               >
-                <h3 className="nav-tabb">Resume</h3>
+                <a href={Resume} download={true} className="nav-tab">
+                  Resume
+                </a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -8,7 +8,6 @@ import Home from "./pages/HomePage.jsx";
 import Contact from "./pages/ContactPage.jsx";
 import About from "./pages/AboutPage.jsx";
 import Project from "./pages/ProjectPage.jsx";
-import Resume from "./pages/ResumePage.jsx";
 import OpenSourceContribution from "./pages/OpenSource.jsx";
 import "./index.css";
 
@@ -38,10 +37,10 @@ const router = createBrowserRouter([
         path: "/Contact",
         element: <Contact />,
       },
-      {
-        path: "/Resume",
-        element: <Resume />,
-      },
+      // {
+      //   path: "/Resume",
+      //   element: <Resume />,
+      // },
     ],
   },
 ]);
