@@ -116,6 +116,7 @@ export default function ContactPage() {
             </button>
           </form>
           <div>
+            {/* Social links */}
             <span className="p-1">
               <a
                 href="https://www.linkedin.com/in/sucheta-mukherjee-07347b88/"

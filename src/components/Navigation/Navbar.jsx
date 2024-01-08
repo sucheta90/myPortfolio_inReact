@@ -57,7 +57,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item px-2">
               <Link
-                to="/Project"
+                to="/OpenSource"
                 className={
                   currentPage === "/OpenSource"
                     ? "nav-link px-5 active"
