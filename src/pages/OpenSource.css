@@ -1,0 +1,18 @@
+.contribution-list {
+  background-color: #113537ff;
+  margin: 2em 0;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+}
+.contribution-list button {
+  margin: 0 auto;
+}
+/* @media screen and (max-width: 986px) {
+  .contribution-list button {
+    margin: 0 auto;
+  }
+} */
