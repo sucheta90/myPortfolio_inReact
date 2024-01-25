@@ -10,7 +10,7 @@ export default function OpenSourceContribution() {
             blue squares (anyone other than Owner/Admin){" "}
             <button>
               <a
-                href="https://github.com/OneCommunityGlobal/HighestGoodNetworkApp/pull/1715"
+                href="https://github.com/OneCommunityGlobal/HighestGoodNetworkApp/pull/1874"
                 target="_blank"
                 rel="noreferrer"
               >
