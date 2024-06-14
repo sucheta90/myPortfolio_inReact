@@ -2,7 +2,7 @@ import ProfilePicture from "../images/IMG_20200601_150351_569-EDIT.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
-import Resume from "../resume/Sucheta_Mukherjee_newResume.pdf";
+import Resume from "../resume/Sucheta_Mukherjee.pdf";
 import "./AboutPage.css";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {

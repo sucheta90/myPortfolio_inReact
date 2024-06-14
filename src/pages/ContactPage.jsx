@@ -4,7 +4,7 @@ import { validateEmail } from "../../utils/validation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
-import Resume from "../resume/Sucheta_Mukherjee_newResume.pdf";
+import Resume from "../resume/Sucheta_Mukherjee.pdf";
 import emailjs from "@emailjs/browser";
 import keys from "../../utils/keys";
 
@@ -69,9 +69,9 @@ export default function ContactPage() {
         id="contact-content"
         className="d-flex flex-column justify-content-center align-items-center"
       >
-        <div className="card col-lg-5">
+        <div className="card col-lg-5 contact-card">
           <h1>Get In Touch</h1>
-          <form className="my-5" id="contact-form" onSubmit={handleSubmit}>
+          <form className="my-4" id="contact-form" onSubmit={handleSubmit}>
             {showMessage}
             <p>
               <input

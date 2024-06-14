@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import { useState } from "react";
 import "./Card.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
@@ -9,122 +8,55 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Card({ project }) {
-  const [showMessage, setShowMessage] = useState(false);
-
-  function handleClick(e) {
-    e.target.id === "open-modal"
-      ? setShowMessage(!showMessage)
-      : e.target.id === "close"
-      ? setShowMessage(!showMessage)
-      : "";
-  }
-
   return (
-    <div
-      className="card d-flex align-items-center shadow mb-5 bg-body-tertiary rounded card-container justify-content-evenly"
-      id={project.id}
-    >
-      {/* description modal */}
-      {showMessage && (
-        <div id="description">
-          <p className=" card">{project.description} </p>
-          <button
-            id="close"
-            className="btn btn-lg btn-warning"
-            onClick={handleClick}
-          >
-            Close
-          </button>
-        </div>
-      )}
+    <div id={project.id} className="card project-card">
       {/* description body */}
-
-      <section className="image-container shadow bg-body-tertiary rounded ">
-        <img src={project.image} />
-      </section>
+      <img src={project.image} className="card-img-top" alt="" />
 
       <div className="card-body">
-        <h4
-          className="card-title p-2 rounded"
-          style={{ fontWeight: "600", backgroundColor: "#37505cff" }}
-        >
+        <h5 className="card-title" style={{ fontWeight: "600" }}>
           {project.title}
-        </h4>
-      </div>
-      <div className="card-body" id="buttons">
-        <button
-          className="btn btn-lg rounded-pill"
-          id="open-modal"
-          onClick={handleClick}
-          style={{
-            backgroundColor: "#f76f8eff",
-            color: "white",
-            fontWeight: "bold",
-            opacity: showMessage ? "0" : "100",
-          }}
-        >
-          <FontAwesomeIcon
-            icon={faCircleInfo}
-            style={{ color: "white" }}
-            className="no-click"
-          />
-        </button>
-        <a
-          href={project.githubRepo}
-          className="card-link"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button
-            className="btn btn-lg rounded-pill"
-            style={{
-              backgroundColor: "#f76f8eff",
-              color: "white",
-              fontWeight: "bold",
-            }}
+        </h5>
+        <p className="collapse" id={`${project.id}_description`}>
+          {project.description}
+        </p>
+        <div className="d-flex justify-content-evenly">
+          <a
+            href={`#${project.id}_description`}
+            className="btn social-link"
+            data-bs-toggle="collapse"
+            role="button"
+          >
+            <FontAwesomeIcon icon={faCircleInfo} />
+          </a>
+          <a
+            href={project.githubRepo}
+            target="_blank"
+            rel="noreferrer"
+            className="btn social-link"
           >
             <FontAwesomeIcon icon={faGithub} style={{ color: "white" }} />
-          </button>
-        </a>
-
-        {project.liveSite ? (
-          <a
-            href={project.liveSite}
-            className="card-link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button
-              className="btn btn-lg rounded-pill"
-              style={{
-                backgroundColor: "#f76f8eff",
-                color: "white",
-                fontWeight: "bold",
-              }}
+          </a>
+          {project.liveSite ? (
+            <a
+              href={project.liveSite}
+              className="btn social-link"
+              target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon icon={faRightToBracket} />
-            </button>
-          </a>
-        ) : (
-          <a
-            href={project.videoWalkthrough}
-            className="card-link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button
-              className="btn btn-lg rounded-pill"
-              style={{
-                backgroundColor: "#f76f8eff",
-                color: "white",
-                fontWeight: "bold",
-              }}
+            </a>
+          ) : (
+            <a
+              href={project.videoWalkthrough}
+              className="btn social-link"
+              target="_blank"
+              rel="noreferrer"
             >
-              {" "}
               <FontAwesomeIcon icon={faYoutube} />{" "}
-            </button>
-          </a>
-        )}
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );

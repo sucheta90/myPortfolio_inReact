@@ -33,15 +33,15 @@ export default function OpenSourceContribution() {
       return;
     }
     return (
-      <li key={index} className="m-2">
-        <div className="card">
+      <li key={index} className="m-2 ">
+        <div className="card task-card">
           <div className="card-body">
             <h5 className="card-text">{task.description}</h5>
             <a
               href={task.link}
               target="_blank"
               rel="noreferrer"
-              className="btn btn-primary"
+              className="btn pr-link"
             >
               Check Pull Request
             </a>
@@ -52,22 +52,23 @@ export default function OpenSourceContribution() {
   });
   return (
     <div
-      style={{ backgroundColor: "#ffead0ff" }}
+      style={{ backgroundColor: "#ffead0ff", maxWidth: "" }}
       className="h-100"
       id="open-source"
     >
       <h1 className="p-2">Open Source Contributions</h1>
       <div>
         <h4>One Community Global </h4>
-        <p className="">
+        <p>
           A global change organization creating open source blueprints, tools,
           and tutorials for all aspects of sustainable living and creating
         </p>
-        <p className="d-flex justify-content-evenly">
+        <p className="d-flex justify-content-center">
           <a
             href="https://github.com/OneCommunityGlobal"
             rel="noreferrer"
             target="_blank"
+            className="m-3"
           >
             <FontAwesomeIcon
               icon={faGithub}
@@ -79,6 +80,7 @@ export default function OpenSourceContribution() {
             href="https://www.onecommunityglobal.org/"
             target="_blank"
             rel="noreferrer"
+            className="m-3"
           >
             <FontAwesomeIcon
               icon={faGlobe}
@@ -90,6 +92,7 @@ export default function OpenSourceContribution() {
             href="https://www.linkedin.com/company/one-community-global/mycompany/"
             target="_blank"
             rel="noreferrer"
+            className="m-3"
           >
             <FontAwesomeIcon
               icon={faLinkedinIn}

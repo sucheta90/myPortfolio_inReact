@@ -1,3 +1,9 @@
+.project-card {
+  width: 18rem;
+  margin: 0 auto;
+  background-color: bisque;
+  box-shadow: -15px 8px 5px -1px rgb(184, 136, 122);
+}
 li {
   list-style: none;
 }
@@ -6,33 +12,16 @@ img {
   height: 12em;
 }
 
-#description {
-  /* width: fit-content; */
-  height: 100%;
-  padding: 1em;
-  line-height: 1.5;
-  position: absolute;
-  top: 0;
-  background-color: white;
-  opacity: 0.95;
-  overflow: scroll;
-}
-.card-container {
-  /* background-color: #37505cff !important; */
-  background-color: #c3c3c3 !important;
-  color: white;
-  font-family: "cursive";
-}
-#buttons {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
 .no-click {
   pointer-events: none;
 }
+.social-link {
+  background-color: #f76f8eff;
+  color: white;
+  font-weight: bold;
+  box-shadow: -8px 5px 5px -1px rgb(184, 136, 122);
+}
 
-button:hover {
+a:hover {
   transform: scale(1.1);
 }

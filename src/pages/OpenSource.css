@@ -2,16 +2,16 @@
   max-width: 1280px;
   margin: 0 auto;
 }
-.contribution-list {
-  background-color: #113537ff;
-  margin: 2em 0;
-  padding: 1em;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  color: white;
+.task-card {
+  background-color: bisque;
+  box-shadow: -12px 8px 5px -1px rgb(184, 136, 122);
 }
 .contribution-list button {
   margin: 0 auto;
+}
+.pr-link {
+  background-color: #f76f8eff;
+  color: white;
+  font-weight: bold;
+  box-shadow: -8px 5px 5px -1px rgb(184, 136, 122);
 }
