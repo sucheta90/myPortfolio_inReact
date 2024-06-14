@@ -3,8 +3,8 @@
   margin: 0 auto;
   /* padding: 2rem; */
   text-align: center;
+  background-color: #ffead0ff;
 }
-
 
 .logo {
   height: 6em;
@@ -12,6 +12,7 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }

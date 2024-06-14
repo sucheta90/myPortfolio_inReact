@@ -1,25 +1,23 @@
-
-import { Outlet } from 'react-router';
-import Navbar from './components/Navigation/Navbar';
-import Footer from './components/Footer/Footer';
-import './App.css'
+import { Outlet } from "react-router";
+import Navbar from "./components/Navigation/Navbar";
+import Footer from "./components/Footer/Footer";
+import "./App.css";
 
 function App() {
   // The Outlet will render page components dynamically
   return (
-    <div className='container-fluid d-flex flex-column'>
+    <div className="container-fluid d-flex flex-column" id="app">
       <header>
-        <Navbar/>
+        <Navbar />
       </header>
-      <main id='view'>
-        <Outlet/>
+      <main id="view">
+        <Outlet />
       </main>
-      <footer className='justify-self-end'>
-         <Footer/>
+      <footer className="justify-self-end">
+        <Footer />
       </footer>
-      
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
