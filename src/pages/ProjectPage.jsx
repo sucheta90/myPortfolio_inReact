@@ -10,10 +10,17 @@ import BookItBash from "../images/bookItBash.webp";
 
 export default function ProjectPage() {
   return (
-    <div className="p-2" style={{ backgroundColor: "#ffead0ff" }}>
+    <div
+      className="p-2"
+      style={{
+        backgroundColor: "#ffead0ff",
+        maxWidth: "1280px",
+        margin: "0 auto",
+      }}
+    >
       <h1>Projects </h1>
 
-      <ul className="row p-2 d-flex justify-content-center">
+      <ul className="row p-2 d-flex justify-content-evenly">
         {Projects.map((el) => {
           if (el.title === "Weather Dashboard") {
             el.image = WeatherDashboard;
@@ -31,7 +38,7 @@ export default function ProjectPage() {
             el.image = ReadmeGen;
           }
           return (
-            <li className="col-lg-4 col-mb-9 col-sm-9" key={el.id}>
+            <li className="col-lg-3 col-mb-9 col-sm-9 m-1" key={el.id}>
               <Card project={el} key={el.id} />
             </li>
           );
